@@ -4,7 +4,7 @@
 	branch = xlnx/release/v6.12.y-2026r1
 [submodule "hdl"]
 	path = hdl
-	url = https://github.com/analogdevicesinc/hdl
+	url = https://github.com/osqzss/hdl.git
 	branch = hdl_2026_r1
 [submodule "br2-external"]
 	path = br2-external
