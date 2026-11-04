@@ -10,6 +10,7 @@
 	path = br2-external
 	url = https://github.com/analogdevicesinc/br2-external.git
 	branch = main
+	ignore = untracked
 [submodule "u-boot"]
 	path = u-boot
 	url = https://github.com/analogdevicesinc/u-boot.git
