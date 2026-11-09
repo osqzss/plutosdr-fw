@@ -250,7 +250,7 @@ LINUX_URL = https://github.com/osqzss/linux.git
 UBOOT_VER = $(shell cd u-boot && git describe --abbrev=4 --dirty --always --tags)
 UBOOT_URL = https://github.com/analogdevicesinc/u-boot.git
 HDL_VERSION = $(shell cd hdl && git describe --abbrev=4 --dirty --always --tags)
-HDL_URL = https://github.com/analogdevicesinc/hdl
+HDL_URL = https://github.com/osqzss/hdl.git
 
 PKG_LINUX = linux,$(LINUX_VERSION),GPL-2.0-only,$(LINUX_URL)
 PKG_UBOOT = u-boot,$(UBOOT_VER),GPL-2.0-or-later,$(UBOOT_URL)
