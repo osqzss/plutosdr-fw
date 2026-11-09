@@ -246,7 +246,7 @@ sysroot: $(BUILDROOT_DIR)/output/images/rootfs.cpio.gz
 	tar czfh build/sysroot-$(VERSION).tar.gz --hard-dereference --exclude=usr/share/man --exclude=dev --exclude=etc -C $(BUILDROOT_DIR)/output staging
 
 LINUX_VERSION = $(shell cd linux && git describe --abbrev=4 --dirty --always --tags)
-LINUX_URL = https://github.com/analogdevicesinc/linux.git
+LINUX_URL = https://github.com/osqzss/linux.git
 UBOOT_VER = $(shell cd u-boot && git describe --abbrev=4 --dirty --always --tags)
 UBOOT_URL = https://github.com/analogdevicesinc/u-boot.git
 HDL_VERSION = $(shell cd hdl && git describe --abbrev=4 --dirty --always --tags)
